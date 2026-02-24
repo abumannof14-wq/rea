@@ -1018,6 +1018,7 @@ function App() {
           </div>
         </section>
       </main>
+      <h1>Salom</h1>
     </>
   )
 }
