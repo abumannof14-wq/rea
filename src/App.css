@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.pruple {
+    width: 143;
+    gap: 4px;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    background-color: #EBE5F9;
+    border: none;
+}
+
+
+.divvv {
+    display: flex;
+    gap: 12px;
+}
+
+.h1Main {
+    width: 588px;
+    font-size: 48px;
+}
+
+.pMain {
+    width: 588px;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 94px;
+}
+
+.parent {
+    display: flex;
+    gap: 56px;
+}
+
+.mainFlex {
+    display: flex;
+    gap: 12px;
+}
+
+.box3 {
+    display: flex;
+    gap: 40px;
+    margin-top: 72px;
+}
+
+.mainFlex1 {
+    display: flex;
+    gap: 12px;
+    margin-top: 26px;
+}
+
+.coffee-card {
+    background-color: #F3F2F2;
+    width: 256px;
+    border-radius: 6px 36px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 38px;
+}
+
+.image-container {
+    margin-top: -40px;
+    margin-bottom: 12px;
+}
+
+.image-container img {
+    width: 120px;
+}
+
+.tag {
+    background-color: #F1E9C9;
+    color: #C47F17;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 20px;
+    color: #403937;
+    margin: 16px 0 8px;
+}
+
+.description {
+    font-size: 14px;
+    color: #8D8686;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #574F4D;
+}
+
+.currency {
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.amount {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.counter {
+    background-color: #E6E5E5;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+    gap: 8px;
+}
+
+.counter button {
+    background: none;
+    border: none;
+    color: #8047F8;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.counter .count {
+    color: #272221;
+    font-size: 16px;
+}
+
+.cart-btn {
+    background-color: #4B2995;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle-h1 {
+    margin-top: 120px;
+}
+
+.paren-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-bottom: 100px;
+}
